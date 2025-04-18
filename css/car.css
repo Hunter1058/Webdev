@@ -1,0 +1,101 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f5f5f5; /* Soft light gray background */
+    color: #333; /* Dark gray text for better readability */
+}
+
+/* Header styling */
+.header {
+    background-color: #a3c9f1; /* Soft blue */
+    color: #222; /* Darker text for contrast */
+    text-align: center;
+    padding: 20px 0; /* Adds padding for spacing */
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #8bb3d9; /* Subtle border for separation */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #d9eaf7; /* Very light blue */
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0; /* Adds padding to make it thinner */
+    border-bottom: 1px solid #b0cde3; /* Subtle border for separation */
+}
+
+nav a {
+    color: #444; /* Dark gray for links */
+    text-decoration: none;
+    padding: 10px 20px; /* Adds spacing between links */
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #cfe2f3; /* Slightly darker blue on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+/* Main body styling */
+.common.mainbody {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%; /* Centers the content and limits its width */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Truck list styling */
+.common.mainbody ol {
+    list-style-position: inside; /* Aligns numbers with text */
+    padding-left: 0;
+    margin: 0;
+}
+
+.common.mainbody li {
+    margin-bottom: 15px; /* Adds spacing between trucks */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark gray for truck names */
+}
+
+.common.mainbody ul {
+    list-style-type: disc; /* Uses bullets for stats */
+    margin-left: 20px; /* Indents stats under each truck */
+    padding-left: 0;
+}
+
+.common.mainbody ul li {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px; /* Adds spacing between stats */
+    color: #555; /* Medium gray for stats */
+}
+
+/* Image styling */
+img {
+    display: block;
+    width: 80%;
+    margin: 20px auto; /* Centers the image and adds spacing */
+    border-radius: 10px; /* Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #d9eaf7; /* Very light blue */
+    color: #444; /* Dark gray text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    border-top: 1px solid #b0cde3; /* Subtle border for separation */
+}
